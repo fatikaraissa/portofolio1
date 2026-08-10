@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata & Perkenalan Diri</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: linear-gradient(160deg, #ffe4ec 0%, #ffd1dc 50%, #ffc0d4 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+  }
+
+  .card {
+    background: #fff8fa;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 24px;
+    border: 2px dashed #f6a6c1;
+    box-shadow: 0 10px 30px rgba(214, 122, 155, 0.35);
+    padding: 34px 30px 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .bow {
+    font-size: 32px;
+    margin-bottom: 6px;
+  }
+
+  .foto {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #ffe9f0;
+    border: 3px solid #f5a8c4;
+    margin: 6px auto 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(214, 122, 155, 0.3);
+  }
+
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: #c9628a;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d98bab;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f0a8c2;
+    font-size: 12px;
+    margin: 18px 0;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #f2c1d4;
+  }
+
+  .biodata {
+    text-align: left;
+    font-size: 14px;
+    color: #7a4a5c;
+    line-height: 2;
+  }
+
+  .biodata div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #f2c1d4;
+    padding: 4px 0;
+  }
+
+  .biodata div span:first-child {
+    color: #c9628a;
+    font-weight: bold;
+  }
+
+  .tentang {
+    text-align: left;
+    font-size: 14px;
+    color: #7a4a5c;
+    line-height: 1.8;
+    font-style: italic;
+  }
+
+  .hobi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .hobi span {
+    background: #ffe0eb;
+    color: #c9628a;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #f5b8cf;
+  }
+
+  .kontak {
+    text-align: left;
+    font-size: 13px;
+    color: #7a4a5c;
+    line-height: 1.9;
+  }
+
+  .kontak span {
+    color: #c9628a;
+    font-weight: bold;
+  }
+
+  footer {
+    margin-top: 22px;
+    font-size: 12px;
+    color: #d98bab;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="bow">🎀</div>
+
+  <div class="foto">
+    <!-- Ganti dengan foto asli: <img src="foto.jpg" alt="Foto"> -->
+    <img src="C:\Users\fatik\Downloads\WhatsApp Image 2026-08-10 at 11.31.26.jpeg" alt="foto">
+  </div>
+
+  <h1>Fatika</h1>
+  <p class="subtitle">Perkenalan Diri</p>
+
+  <div class="divider">✧ biodata ✧</div>
+
+  <div class="biodata">
+    <div><span>Nama</span><span>Fatika Raissa Kamil</span></div>
+    <div><span>Panggilan</span><span>Tika</span></div>
+    <div><span>TTL</span><span>Pacitan, 25 Oktober 2008</span></div>
+    <div><span>Zodiak</span><span>Scorpio</span></div>
+    <div><span>Sekolah</span><span>SMK Negeri 1 Pacitan</span></div>
+    <div><span>Status</span><span>Pelajar</span></div>
+  </div>
+
+  <div class="divider">✧ tentang aku ✧</div>
+
+  <p class="tentang">
+    Prestasi (SMP) :
+	Mengikuti lomba Menyayi Solo FLS2N
+	<br>
+	Prestasi (SMK) :
+	Mengikuti Kejuaraan Olimpiade Sains Nasional (KOSN) sejarah - juara 2
+	Mengikuti Indonesian Science Competition (ISCO) sejarah - juara 2
+	Mengikuti Sentral Olimpiade Nasional (SEON) sejarah - juara 2
+	Mengikuti Olimpiade Keilmuan Sains Nasional (OKSN) sejarah - juara 2
+  </p>
+
+  <div class="divider">✧ hobi & suka ✧</div>
+
+  <div class="hobi">
+    <span>membaca</span>
+    <span>menyanyi</span>
+    <span>menonton film</span>
+    <span>merajut</span>
+    <span>memasak</span>
+  </div>
+
+  <div class="divider">✧ kontak ✧</div>
+
+  <div class="kontak">
+    <div><span>Email</span> — nama@email.com</div>
+    <div><span>Instagram</span> — @fatika_nona</div>
+    <div><span>Telepon</span> — 08xx-xxxx-xxxx</div>
+  </div>
+
+  <footer>xoxo, Tika 🎀</footer>
+</div>
+
+</body>
+</html>
